@@ -82,7 +82,8 @@ class Window(QWidget):
             "View Clock" if self.is_stopwatch else "View Stopwatch")
 
 
-app = QApplication(sys.argv)
-home = Window()
-home.show()
-app.exit(app.exec_())
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    home = Window()
+    home.show()
+    app.exit(app.exec_())
