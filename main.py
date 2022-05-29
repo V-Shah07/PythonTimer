@@ -85,4 +85,4 @@ class Window(QWidget):
 app = QApplication(sys.argv)
 home = Window()
 home.show()
-app.exit(App.exec_())
+app.exit(app.exec_())
